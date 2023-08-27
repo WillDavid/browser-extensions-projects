@@ -1,0 +1,11 @@
+{
+    "name": "Google Images Replacer",
+    "description": "My first Chrome Extension",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "actions": {
+        "default_popup": "index.html"
+    }
+
+}
