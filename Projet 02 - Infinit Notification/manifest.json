@@ -1,0 +1,14 @@
+{
+    "name": "Notification",
+    "description": "This is a extension about notifications and services worker",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": ["notifications"],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+
+}
